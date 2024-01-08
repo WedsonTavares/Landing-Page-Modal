@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Definição do conjunto de caracteres e configuração da viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>landing Page 📰Newsletter</title>
+</head>
+<body>
+
+    <!-- Modal de sucesso ou erro -->
+    <dialog class="modal__enviar">
+        <div class="modal__content">
+            <p>E-mail cadastrado com <span class="sucesso">sucesso</span>!</p>
+            <p>E-mail <span class="erro">não</span> cadastrado!</p>
+            <button type="button" class="btn btn__fechar">fechar</button>
+        </div>
+    </dialog>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Logo e link para a página inicial -->
+        <span class="header__logo">
+            <a href="#">🚀WedsonTavares</a>
+        </span>
+
+        <!-- Botão para comprar o ebook -->
+        <button type="button" class="btn btn__comprar">Comprar ebook</button>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+
+        <!-- Seção de conteúdo -->
+        <section class="section__content">
+            <h2>Seja bem-vindo a sua melhor newsletter</h2>
+
+            <h3>Fique por dentro de todas as novidades</h3>
+
+            <p>Preencha os campos para receber notícias sobre programação.</p>
+
+            <!-- Formulário de inscrição na newsletter -->
+            <form action="">
+
+                <!-- Campo de nome -->
+                <div class="inputs">
+                    <label for="input__nome">Nome</label>
+                    <input type="text" name="" id="input__nome" class="input__nome">
+                </div>
+
+                <!-- Campo de e-mail -->
+                <div>
+                    <label for="input__email">E-mail</label>
+                    <input type="email" name="" id="input__email" class="input__email">
+                </div>
+
+                <!-- Botão de envio do formulário -->
+                <div class="buttons">
+                    <button type="submit" class="btn btn__enviar">Enviar</button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        Produzido por Wedson Tavares &copy; 2024 | Inspirado no desafio efront do Iury Code
+    </footer>
+
+</body>
+</html>
