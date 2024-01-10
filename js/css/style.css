@@ -9,15 +9,25 @@
     --color__bg: #1A1A1A;
 }
 
-* {
-    background-color: var(--color_bg);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color__bg);
     color: var(--color_light);
 }
 
-header{
+header {
     width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.header__logo a {
+    text-decoration: none;
 }
