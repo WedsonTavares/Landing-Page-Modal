@@ -4,7 +4,7 @@ O objetivo deste desafio é criar uma página atraente e funcional, utilizando H
 
 ## Visualização
 
-Você pode visualizar a página [aqui](https://www.figma.com/file/zlBzEKtT8mzt3fD2ujIm8R/eFront---Desafio-1?type=design&node-id=2-2&mode=design&t=YgoahJUEjHW0DhGj-0).
+- Você pode visualizar a página do desafio original [aqui](https://www.figma.com/file/zlBzEKtT8mzt3fD2ujIm8R/eFront---Desafio-1?type=design&node-id=2-2&mode=design&t=YgoahJUEjHW0DhGj-0).
 
 ## Estrutura do Código
 
@@ -22,7 +22,7 @@ Você pode visualizar a página [aqui](https://www.figma.com/file/zlBzEKtT8mzt3f
 
 ## Autor
 
-- [Wedson Tavares](#inserir-link-para-o-perfil-do-autor)
+- [Wedson Tavares](linkedin.com/in/wedsontavares)
 
 ## Agradecimentos
 
