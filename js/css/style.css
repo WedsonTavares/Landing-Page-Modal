@@ -1,0 +1,23 @@
+:root {
+    --color_green: #04D361;
+    --color_blue: #899BFF;
+    --color_red: #FF3E3E;
+    --color_dark: #0C0C0C;
+    --color_dark_200: #212529;
+    --color_gray: #AEAEAE;
+    --color_light: #F9F9F9;
+    --color__bg: #1A1A1A;
+}
+
+* {
+    background-color: var(--color_bg);
+    color: var(--color_light);
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
