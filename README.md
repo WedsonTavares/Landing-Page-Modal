@@ -22,7 +22,7 @@ O objetivo deste desafio é criar uma página atraente e funcional, utilizando H
 
 ## Autor
 
-- [Wedson Tavares](linkedin.com/in/wedsontavares)
+- [Wedson Tavares](linkedin.com/in/wedsontavares/)
 
 ## Agradecimentos
 
