@@ -1,3 +1,4 @@
+/* Cores variáveis para reutilização */
 :root {
     --color_green: #04D361;
     --color_blue: #899BFF;
@@ -9,18 +10,21 @@
     --color__bg: #1A1A1A;
 }
 
+/* Zera as margens, preenchimentos e define a caixa de modelo como caixa de borda */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo básico para o corpo da página */
 body {
     background-color: var(--color__bg);
     color: var(--color_light);
     font-family: Inter, sans-serif;
 }
 
+/* Estilo para o cabeçalho da página */
 header {
     width: 100%;
     height: 80px;
@@ -29,31 +33,126 @@ header {
     justify-content: space-around;
 }
 
+/* Estilo para o logotipo no cabeçalho */
 .header__logo a {
     text-decoration: none;
     font-size: 36px;
     color: var(--color_light);
-    
 }
 
+/* Estilos para botões genéricos */
 .btn {
     width: 190px;
     height: 60px;
     border: 0;
+    cursor: pointer;
 }
 
-.btn__comprar{
+/* Estilo específico para o botão de compra */
+.btn__comprar {
     border: 2px solid var(--color_blue);
     background-color: transparent;
     border-radius: 6px;
     color: var(--color_light);
-
 }
 
+/* Estilo para o conteúdo principal da página */
 main {
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/* Estilo para a seção de conteúdo */
+.section__content {
+    width: 600px;
+    height: auto;
+}
+
+/* Estilo para o título principal (h2)*/
+.section__content h2 {
+    font-family: Sora, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Estilo para títulos secundários (h3) */
+.section__content h3 {
+    font-size: 28px;
+    text-align: center;
+    color: var(--color_blue);
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+/* Estilo para o parágrafo (p) */
+.section__content p {
+    font-size: 20px;
+    line-height: 34px;
+    color: var(--color_gray);
+    margin-top: 30px;
+}
+
+/* Estilo para o formulário de inscrição */
+form {
+    width: 600px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Estilo para campos de entrada de texto */
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input__email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as caixas de entrada de texto */
+input {
+    height: 60px;
+    border-radius: 4px;
+    background-color: var(--color_dark);
+    border: 1px solid var(--color_dark_200);
+    color: var(--color_light);
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+/* Estilo para rótulos de campos de entrada */
+label {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color_gray);
+    padding-left: 2px;
+}
+
+/* Estilo para o botão de envio do formulário */
+.btn__enviar {
+    width: 100%;
+    background-color: var(--color_blue);
+    color: var(--color_dark);
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* Estilo para o rodapé da página */
+footer {
+    width: 100%;
+    height: 60px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
