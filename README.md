@@ -20,9 +20,7 @@ O objetivo deste desafio é criar uma página atraente e funcional, utilizando H
 4. Faça push para o branch (`git push origin feature/sua-feature`).
 5. Abra um Pull Request.
 
-## Autor
 
-- [Wedson Tavares](linkedin.com/in/wedsontavares/)
 
 ## Agradecimentos
 
